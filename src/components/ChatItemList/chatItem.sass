@@ -1,0 +1,23 @@
+.chat-item
+  padding: 12px 16px
+  display: flex
+  column-gap: 16px
+  align-items: center
+  cursor: pointer
+  &:hover
+    background-color: rgba(32, 31, 30, 0.04)
+  &.selected
+    background: rgba(64, 126, 201, 0.08)
+    &:hover
+      background: rgba(64, 126, 201, 0.08)
+  &_box
+    max-width: 264px
+  &_name
+    display: flex
+    align-items: center
+    justify-content: space-between
+    &-text
+      font-weight: 700
+      margin-bottom: 2px
+  &_message
+    color: #605E5C
